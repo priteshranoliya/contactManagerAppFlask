@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %} About Us {% endblock title %}
+{% block body %}
+<div class="container my-3">
+    <style>
+        /* Inline CSS styles for the About page */
+        .highlight-text {
+            color: #007bff; /* Blue text color */
+        }
+
+        .feature-list {
+            list-style-type: square; /* Custom bullet style */
+            padding-left: 20px; /* Adjust indentation for the list */
+        }
+
+        /* CSS animation for the heading */
+        h2 {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    
+    <h2>About Us</h2>
+    <p>Welcome to MyContactsAppFlask! We are passionate about helping you stay connected and manage your contacts efficiently.</p>
+    <p>Our mission is to provide a simple and intuitive contact management application built using Flask and SQLAlchemy. Whether you're an individual, professional, or anyone in need of a contact manager, we've got you covered.</p>
+    <p class="highlight-text">With MyContactsAppFlask, you can:</p>
+    <ul class="feature-list">
+        <li>Create and manage your contacts list.</li>
+        <li>Easily update and organize contact information.</li>
+        <li>Delete contacts you no longer need.</li>
+        <li>Stay connected and enhance your communication.</li>
+    </ul>
+    <p>Thank you for choosing MyContactsAppFlask as your contact management solution. We hope you enjoy using our application!</p>
+</div>
+{% endblock body %}
