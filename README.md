@@ -6,7 +6,9 @@ MyContactsAppFlask is a web-based Contact Manager application built using Flask 
 # Features
 
 Contact Management: Create, update, and delete contact entries.
+
 User-Friendly Interface: An intuitive and responsive user interface for easy navigation.
+
 Data Persistence: Utilizes SQLAlchemy to securely store contact data in a relational database.
 
 
